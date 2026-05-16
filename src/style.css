@@ -268,3 +268,41 @@ button:hover {
   text-align: center;
   padding: 60px;
 }
+
+@media screen and (max-width: 526px) {
+  button {
+    padding: 10px;
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    padding: 0;
+    border-radius: 10px;
+    height: auto;
+  }
+
+  .about-stats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stat {
+    text-align: center;
+    color: antiquewhite;
+    width: 100%;
+  }
+
+  .stat h3 {
+    font-family: fantasy;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+
+  .stat p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+}
