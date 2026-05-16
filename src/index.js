@@ -120,26 +120,28 @@ function renderMenu() {
     </div>
   `;
 }
-
 function renderAbout() {
-  return `<div class="about-page">
-            <div class="about-hero">
-             <img src="${about}" alt="Our Restaurant class="about-img">
-              <div class="about-overlay">
-               <h1 class="about-title">Since 1882</h1>
-           </div>
-           
-             <div class="about-content">
-               <div class="about-section">
-               <h2>Our Story</h2>
-                <p>
-                    Nestled in the heart of Catania, at the foot of Mount Etna, our restaurant 
-                    has been a cornerstone of Sicilian culinary tradition since 1882. 
-                    What began as a humble family trattoria has grown into one of the most 
-                    beloved dining destinations in all of Sicily.
-                </p> 
-            </div>
-                <div class="about-section">
+  return `
+    <div class="about-page">
+      <div class="about-hero">
+        <img src="${about}" alt="Our Restaurant" class="about-img" />
+        <div class="about-overlay">
+          <h1 class="about-title">Since 1882</h1>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-section">
+          <h2>Our Story</h2>
+          <p>
+            Nestled in the heart of Catania, at the foot of Mount Etna, our restaurant 
+            has been a cornerstone of Sicilian culinary tradition since 1882. 
+            What began as a humble family trattoria has grown into one of the most 
+            beloved dining destinations in all of Sicily.
+          </p>
+        </div>
+
+        <div class="about-section">
           <h2>Our Philosophy</h2>
           <p>
             We believe that food is more than nourishment — it is memory, culture, 
@@ -159,7 +161,8 @@ function renderAbout() {
             you will always leave with a full heart.
           </p>
         </div>
-         <div class="about-stats">
+
+        <div class="about-stats">
           <div class="stat">
             <h3>140+</h3>
             <p>Years of Tradition</p>
@@ -174,9 +177,9 @@ function renderAbout() {
           </div>
         </div>
       </div>
-    </div>"`;
+    </div>
+  `;
 }
-
 // load Page
 function loadPage(page) {
   switch (page) {
