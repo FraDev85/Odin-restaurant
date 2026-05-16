@@ -161,6 +161,16 @@ function renderAbout() {
             you will always leave with a full heart.
           </p>
         </div>
+           <div class="about-section">
+          <h2>Contact: </h2>
+          <p>
+           tel: xxxx-xxxx
+           <br>
+           email: sicilianrestaurant@example.org
+           <br>
+           cel: xxxx-xxxxx
+          </p>
+        </div>
 
         <div class="about-stats">
           <div class="stat">
